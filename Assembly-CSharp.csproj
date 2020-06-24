@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{3ED76A0B-35D2-DD2B-EF17-3FDC496AD900}</ProjectGuid>
+    <ProjectGuid>{391719F8-EC68-5AFE-3DF8-A65E997B58E8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -120,33 +120,171 @@
     <Compile Include="Assets\Outside Assets\FloatingEntities\Scripts\SplashGenerator.cs" />
     <Compile Include="Assets\Outside Assets\FloatingEntities\Scripts\Tools\Proxies.cs" />
     <Compile Include="Assets\Outside Assets\FloatingEntities\Scripts\WakeGenerator.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\Extra\Scripts\InputLabel.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\Extra\Scripts\Teleporter.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\Scripts\Controller\FPController.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\Scripts\Controller\Input\FPControllerInputModulator.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\Scripts\Controller\Input\FPControllerInputModule.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\Scripts\Controller\Input\FPControllerKeyInput.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\Scripts\ControllerStatesDataTemplate.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\Scripts\HeadBob\ControllerHeadBobStates.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\Scripts\HeadBob\HeadBobData.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\Scripts\Sound\ControllerSoundStates.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\Scripts\Sound\Sound Surface\SoundSurface.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\Scripts\Sound\Sound Surface\TerrainSoundSurface.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\Scripts\TypesData.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Tools\EditorTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Tools\InspectorTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\AdvancedAssetPostprocessorToolkit.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\AssetExporter.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Drawers\BoundsCalculator Drawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Drawers\CollisionIgnoreController Drawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Drawers\GameScene Drawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Drawers\InputModulator Drawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Drawers\KeyCodeList Drawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Drawers\MultiTag Drawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Drawers\OptionsBox Drawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Drawers\PathDrawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Drawers\SoundSet Drawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Drawers\TabButton Drawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Drawers\TabMenu Drawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Drawers\ValueEvent Drawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Editor Window\MoePackageExporter.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Editor Window\QuickTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Editor Window\SetSelectableColor.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Inspector\CreateScriptableObjectButton.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Inspector\CustomGUI.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Inspector\EnumDrawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Inspector\GUIArea.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Inspector\InspectorBase.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Inspector\InspectorBaseCustomDrawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Inspector\InspectorList.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Inspector\LayoutPropertyCustomDrawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Inspector\LayoutPropertyDrawer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\Inspector\ListPopup.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\LightProbeRegion.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\MultiPrefab.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\_Editor\Utility\ShowDirection.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\MoeTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\ConstantsTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\ConvertionTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\DictionaryTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\EnumTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\GameObjectTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\InputTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\ListTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\MathTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\PlatformTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\RandomTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\ReflectionTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\SceneTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\SerializationTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\StringTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\TransformTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Tools\VectorTools.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Animator\AnimatorEventRewind.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Animator\StateMachineCallbackRewind.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Animator\UStateMachine.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\BasicCursor.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Booling\Auto Bool\AutoBoolBehaviour.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Booling\Auto Bool\AutoBoolController.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Booling\Auto Bool\AutoBoolItem.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Booling\BoolController.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Booling\BoolItem.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Booling\IBoolItem.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\AutoResource.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\Coordinates.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\GameScene.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\ListEnumerator.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\ListIndexer.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\ModuleFramework.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\Numerical\DualInt.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\Numerical\IRange.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\Numerical\MaxValue.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\Numerical\SmoothValues.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\Numerical\ValueRange.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\PlayerPrefsX.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\Scriptable Objects\ScriptableObjectSingelton.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\Scriptable Objects\SoundSet.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\ScriptableResourceObject.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\UT Serializable\Base\SerializableUCType.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\UT Serializable\Color\SCColor.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\UT Serializable\Color\SSColor.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\UT Serializable\Quaternion\SCQuaternion.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\UT Serializable\Quaternion\SSQuaternion.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\UT Serializable\Resolution\SCResolution.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\UT Serializable\Resolution\SSResolution.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\UT Serializable\Vector2\SCVector2.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\UT Serializable\Vector2\SSVector2.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\UT Serializable\Vector3\SCVector3.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\UT Serializable\Vector3\SSVector3.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\UT Serializable\Vector4\SCVector4.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Data\UT Serializable\Vector4\SSVector4.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Input\Input Modulator\InputModulator.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Input\Input Modulator\InputModule.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Input\KeyCodeList.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\MultiTag.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Physics\BoundsCheckArea.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Physics\CenterOfMass.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Physics\CollisionIgnoreController.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Physics\CollisionReWind.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Physics\DestroyZone.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Physics\Explosion.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Physics\PhysicsCheckController.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Physics\TriggerReWind.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Processing\AutoCoroutine.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Processing\BoundsCalculator.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Processing\DestroyAfter.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Processing\Dispatcher System\UnityDispatcher.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Trash\GameTrash.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Trash\TrashItem.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\Trash\TrashList.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\Input Field Slider\FloatInputFieldSlider.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\Input Field Slider\InputFieldSlider.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\Input Field Slider\IntInputFieldSlider.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\Layout Seperator\LayoutSeperator.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\Layout Seperator\LayoutSeperatorElement.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\LoadSceneButton.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\Options Box\OptionsBox.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\Options Box\OptionsBoxArrow.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\ScrollRectSelector.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\Tab Menu\TabButton.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\Tab Menu\TabMenu.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\TransparencyController.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\UI Creator\TemplateListUICreator.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\UI Creator\TemplateUICreator.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\UI Creator\UI Template\AutoCallbackUITemplate.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\UI Creator\UI Template\UITemplate.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\UI Creator\UICreator.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\UI\URLButton.cs" />
+    <Compile Include="Assets\Outside Assets\Moe Baker\Moe Tools\Standalone\Utility\ValueEvent.cs" />
     <Compile Include="Assets\Outside Assets\PageCurler\source\CameraOrbit.cs" />
     <Compile Include="Assets\Outside Assets\PageCurler\source\DemoController.cs" />
     <Compile Include="Assets\Outside Assets\PageCurler\source\PageCurl.cs" />
     <Compile Include="Assets\Outside Assets\Rat\RatMove.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Controllers\Controller_Cutout.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Controllers\Controller_Edge.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Controllers\Controller_Mask_Box.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Controllers\Controller_Mask_Cone.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Controllers\Controller_Mask_Cylinder.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Controllers\Controller_Mask_Cylinder_Alt.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Controllers\Controller_Mask_Plane.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Controllers\Controller_Mask_Sphere.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Controllers\Controller_Mask_XYZ_Axis.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\AnimateCutout.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\BunnyMove.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\LookAt.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\ObjectRandomMove.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\ObjectSceneMove.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\SpotLight_LineRenderer.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\UIEventReciever_Cutout_And_Edge.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\UIEventReciever_ExampleScene_Mask_Box.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\UIEventReciever_ExampleScene_Mask_Cone.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\UIEventReciever_ExampleScene_Mask_Cylinder.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\UIEventReciever_ExampleScene_Mask_Plane.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\UIEventReciever_ExampleScene_Mask_Spere.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\UIEventReciever_ExampleScene_Mask_XYZ_Axis.cs" />
-    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Scripts\Example\UpdateWorldPos.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Controllers\Controller_Cutout.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Controllers\Controller_Edge.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Controllers\Controller_Mask_Box.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Controllers\Controller_Mask_Cone.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Controllers\Controller_Mask_Cylinder.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Controllers\Controller_Mask_Cylinder_Alt.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Controllers\Controller_Mask_Plane.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Controllers\Controller_Mask_Sphere.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Controllers\Controller_Mask_XYZ_Axis.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\AnimateCutout.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\BunnyMove.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\LookAt.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\ObjectRandomMove.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\ObjectSceneMove.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\SpotLight_LineRenderer.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\UIEventReciever_Cutout_And_Edge.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\UIEventReciever_ExampleScene_Mask_Box.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\UIEventReciever_ExampleScene_Mask_Cone.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\UIEventReciever_ExampleScene_Mask_Cylinder.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\UIEventReciever_ExampleScene_Mask_Plane.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\UIEventReciever_ExampleScene_Mask_Spere.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\UIEventReciever_ExampleScene_Mask_XYZ_Axis.cs" />
+    <Compile Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Scripts\Example\UpdateWorldPos.cs" />
     <Compile Include="Assets\Outside Assets\VacuumShaders\DisolveScript.cs" />
     <Compile Include="Assets\Post Twist Objects\FlipGrate.cs" />
     <Compile Include="Assets\Post Twist Objects\Lagging_Hallway.cs" />
@@ -237,6 +375,10 @@
     <Compile Include="Assets\Scripts\Talking_Script.cs" />
     <Compile Include="Assets\Scripts\turnOffPuzzles.cs" />
     <Compile Include="Assets\Scripts\Tutorial.cs" />
+    <Compile Include="Assets\Shader\OutlineEffect\Demo\MaterialSwitcher.cs" />
+    <Compile Include="Assets\Shader\OutlineEffect\Demo\OutlineAnimation.cs" />
+    <Compile Include="Assets\Shader\OutlineEffect\Demo\Rotate.cs" />
+    <Compile Include="Assets\Shader\OutlineEffect\Demo\Toggle.cs" />
     <Compile Include="Assets\Shader\OutlineEffect\LinkedSet.cs" />
     <Compile Include="Assets\Shader\OutlineEffect\Outline.cs" />
     <Compile Include="Assets\Shader\OutlineEffect\OutlineEffect.cs" />
@@ -255,6 +397,23 @@
     <Compile Include="Assets\StandInSwitch.cs" />
     <Compile Include="Assets\StoryMassCreator.cs" />
     <Compile Include="Assets\switchSceneOnButton.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\BaseVariableSetting.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\ColourVariableSetting.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\FloatVariableSetting.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\HSVPicker\BoxSlider.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\HSVPicker\HexRGB.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\HSVPicker\HsvBoxSelector.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\HSVPicker\HSVDragger.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\HSVPicker\HSVPicker.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\HSVPicker\HSVSliderEvent.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\HSVPicker\HsvSliderPicker.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\HSVPicker\UtilityScripts\ColorScrollRect.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\HSVPicker\UtilityScripts\HSVUtil.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\HSVPicker\UtilityScripts\TiltWindow.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\ObjectPool.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\TextFxDemoManager.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\ToggleVariableSetting.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\Vector3VariableSetting.cs" />
     <Compile Include="Assets\TextMesh Pro\TextFx\Scripts\ActionVariableProgression.cs" />
     <Compile Include="Assets\TextMesh Pro\TextFx\Scripts\EasingManager.cs" />
     <Compile Include="Assets\TextMesh Pro\TextFx\Scripts\LetterAction.cs" />
@@ -285,15 +444,18 @@
     <None Include="Assets\Outside Assets\Candles and Candlesticks\Lux-master\Lux Shader\Translucent\Lux Trans Bumped Specular.shader" />
     <None Include="Assets\Shader\Realistic Glitches Lite\Assets\Shaders\Distortion2D__FullOnly.shader" />
     <None Include="Assets\Outside Assets\BestOcean\Shader\OceanDepthsCache.shader" />
+    <None Include="Assets\Outside Assets\Day-Night Skyboxes\readme.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Standard\StandardRoughness.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Particles\Particle Multiply.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Particles\Particle Blend.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Legacy\Normal-ParallaxSpec.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Only Directional Light\OnlyDirectionalLight.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\TextMesh Pro\TMP_Bitmap.shader" />
+    <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Packages\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\TextMesh Pro\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Demo\ReadMe.txt" />
     <None Include="Assets\Outside Assets\BestOcean\Shader\MaskUsingDepth.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\TextMesh Pro\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Meta\MetaPass.shader" />
@@ -321,13 +483,16 @@
     <None Include="Assets\Outside Assets\FloatingEntities\Shaders\WaterToolBox.cginc" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Nature\TreeCreator\TreeCreatorBarkRendertex.shader" />
     <None Include="Assets\Outside Assets\BestOcean\Shader\UpdateFoam.shader" />
+    <None Include="Assets\Outside Assets\CGT\Gun\Read Me.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Particles\Particle Alpha Blend.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Standard\UnityStandardCoreForward.cginc" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Physically Based\Metallic.shader" />
+    <None Include="Assets\Outside Assets\Moe Baker\Advanced Rigidbody FirstPerson Controller\README.txt" />
     <None Include="Assets\Shader\Realistic Glitches Lite\Documentation\Realistic Glitches.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Shadow\Shadow_AlphaTest.shader" />
     <None Include="Assets\Shader\Realistic Glitches Lite\Assets\Shaders\BleedingColors.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Other Assets\Viking Village\Copyright.txt" />
     <None Include="Assets\Outside Assets\Trees_WorldSpace\WorldSpaceTrees_Doc.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Nature\TreeCreator\TreeCreatorLeavesOptimized.shader" />
     <None Include="Assets\Outside Assets\FloatingEntities\Shaders\Ocean.shader" />
@@ -339,21 +504,27 @@
     <None Include="Assets\Shader\Realistic Glitches Lite\Assets\Shaders\Shift.shader" />
     <None Include="Assets\Outside Assets\Crates00\info.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Particles\Particle AddMultiply.shader" />
+    <None Include="Assets\Outside Assets\Moe Baker\Moe Tools\Info.txt" />
     <None Include="Assets\Shader\TomsDithering\DitherShader.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Standard\Standard_SM4.shader" />
+    <None Include="Assets\TextMesh Pro\TextFx\Utilities\Boomlagoon\JSON\Readme.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Nature\TreeCreator\TreeCreatorLeavesRendertex.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Internal\Internal-DepthNormalsTexture.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\TextMesh Pro\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Outside Assets\Candles and Candlesticks\Candles and Candlesticks - Readme.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\cginc\AdvancedDissolve.cginc" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\TextMesh Pro\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Standard\StandardSpecular_SM4.shader" />
+    <None Include="Assets\Outside Assets\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Standard\UnityStandardInput.cginc" />
     <None Include="Assets\TextMesh Pro\TextFx\GETTING STARTED GUIDE.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Nature\SoftOcclusion\TreeSoftOcclusionBark.shader" />
+    <None Include="Assets\Outside Assets\Blood decal pack\readme.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Legacy\Normal-Bumped.shader" />
     <None Include="Assets\Outside Assets\FloatingEntities\Shaders\OceanExp.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Shader\Kuwahara.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Shader\Realistic Glitches Lite\Assets\Shaders\VUnsync.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Legacy\Decal.shader" />
@@ -386,10 +557,13 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Particles\Particle Anim Alpha Blend.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\VertexLit\VertexLit.shader" />
+    <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Other Assets\Nightmare\Copyright.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\TextMesh Pro\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Nature\SpeedTree\SpeedTreeCommon.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Outside Assets\Candles and Candlesticks\Materials\transm.shader" />
+    <None Include="Assets\Outside Assets\CGT\Compass(new)\Read Me.txt" />
+    <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Other Assets\Free_SpeedTrees\Copyright.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Particles\Particle Add.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Particles\Particle VertexLit Blended.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Particles\AdvancedDissolveUnityStandardParticles.cginc" />
@@ -408,6 +582,7 @@
     <None Include="Assets\Outside Assets\PageCurler\source\PageCurl.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Standard\UnityStandardConfig.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Outside Assets\Grimoire\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Shader\Realistic Glitches Lite\Assets\Shaders\Distortion.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Legacy\Normal-BumpSpec.shader" />
@@ -415,29 +590,30 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Outside Assets\Trees_WorldSpace\Misc\Obselete_canDelete\ShaderForgeDepricated\Depricated_canDelete\SF_Dep_TreeLeavesSwitcher.shader" />
+    <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Example And Demo Scenes\Example Scenes\Files\Other Assets\CactusPack\Copyright.txt" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Legacy\Normal-Parallax.shader" />
     <None Include="Assets\Outside Assets\VacuumShaders\Advanced Dissolve\Shaders\Nature\SoftOcclusion\UnityBuiltin2xTreeLibrary.cginc" />
     <None Include="Assets\Shader\Realistic Glitches Lite\Assets\Shaders\BWDiffuse.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -644,22 +820,22 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="ArchimedsLab">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Assets/Outside Assets/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Assets/Outside Assets/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

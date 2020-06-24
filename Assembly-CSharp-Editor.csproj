@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{9B247921-4FA6-5BAF-AC1C-7C6E4B50F003}</ProjectGuid>
+    <ProjectGuid>{5CED4741-A4DD-6079-6E1D-07D200FD523B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\ObjExporter.cs" />
     <Compile Include="Assets\Outside Assets\BestOcean\Editor\ColorSpaceEditor.cs" />
+    <Compile Include="Assets\TextMesh Pro\TextFx\Demo\Scripts\HSVPicker\Editor\BoxSliderEditor.cs" />
     <Compile Include="Assets\TextMesh Pro\TextFx\Editor\MenuOptionsTextFxNative.cs" />
     <Compile Include="Assets\TextMesh Pro\TextFx\Editor\MenuOptionsTextFxNGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\TextFx\Editor\MenuOptionsTextFxTMP.cs" />
@@ -77,25 +78,25 @@
     <Compile Include="Assets\TextMesh Pro\TextFx\Editor\TextFxTextMeshProUGUI_Inspector.cs" />
     <Compile Include="Assets\TextMesh Pro\TextFx\Editor\TextFxUGUI_Inspector.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -347,61 +348,37 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="ArchimedsLab">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Assets/Outside Assets/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Assets/Outside Assets/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
     </Reference>
     <Reference Include="VacuumShaders.AdvancedDissolve_Editor">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Assets/Outside Assets/VacuumShaders/Advanced Dissolve/Editor/VacuumShaders.AdvancedDissolve_Editor.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Assets/Outside Assets/VacuumShaders/Advanced Dissolve/Editor/VacuumShaders.AdvancedDissolve_Editor.dll</HintPath>
     </Reference>
     <Reference Include="VacuumShaders">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Assets/Outside Assets/VacuumShaders/Editor/VacuumShaders.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Assets/Outside Assets/VacuumShaders/Editor/VacuumShaders.dll</HintPath>
     </Reference>
     <Reference Include="TextFxMenuItem">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Assets/TextMesh Pro/TextFx/Editor/TextFxMenuItem.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Assets/TextMesh Pro/TextFx/Editor/TextFxMenuItem.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="AsyncBridge.Net35">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Api">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Unity">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="sfw.net">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.UnityShim">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Logging">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="ReadOnlyCollectionsInterfaces">
-      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste Git/Mary-Celeste/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
+      <HintPath>C:/Current Work/Perforce/depot/Team Firestorm/Mary Celeste Working Folder/Mary Celeste/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -439,12 +416,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{3ED76A0B-35D2-DD2B-EF17-3FDC496AD900}</Project>
+      <Project>{391719F8-EC68-5AFE-3DF8-A65E997B58E8}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{5FD3AFB5-C7F6-3382-0A12-4871F8835B38}</Project>
-      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
